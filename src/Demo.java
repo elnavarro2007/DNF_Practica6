@@ -13,7 +13,7 @@ public class Demo {
 
         CentroEducativo centroEducativo = new CentroEducativo(trabjadores);
 
-
+        //muestra todos la lista de trabajadores listados
         System.out.println("MOSTRAR TRABAJADORES");
         centroEducativo.mostrarTrabajadores();
 
