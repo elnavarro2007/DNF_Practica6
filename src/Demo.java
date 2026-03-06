@@ -28,6 +28,7 @@ public class Demo {
         System.out.println("TRABAJADOR MÁS ANTIGÜO");
         System.out.println(centroEducativo.trabajadorMasAntiguo());
 
+        //muestra la especialidad de cada trabjador
         System.out.println();
         System.out.println("ULTIMO APARTADO");
         for (Trabajador tr : trabjadores) {
