@@ -26,6 +26,11 @@ public class PersonalAdministrativo extends Trabajador {
 
     @Override
     public String trabajar() {
+        /**
+         * Devuelve el departamento.
+         * @return deaprtamento
+         */
+
         return "Realiza tareas administrativas del departamento " + departamento;
     }
 

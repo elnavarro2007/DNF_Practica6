@@ -26,6 +26,11 @@ public class Profesor extends Trabajador {
 
     @Override
     public String trabajar() {
+
+        /**
+         * Devuelve la especialidad.
+         * @return especialidad
+         */
         return "Imparte clase en su especialidad " + especialidad;
     }
 

@@ -63,11 +63,17 @@ public abstract class Trabajador {
 
     @Override
     public String toString() {
+        /**
+         * Devuelve los atributos.
+         * @return nombre, apellidos, dni, fechaIncorporacion, salarioBase
+         */
         return "Trabajador: " +
                 "nombre ='" + nombre + '\'' +
                 ", apellidos ='" + apellidos + '\'' +
                 ", DNI ='" + DNI + '\'' +
                 ", fechaIncorporacion =" + fechaIncorporacion +
                 ", salarioBase =" + salarioBase;
+
+
     }
 }

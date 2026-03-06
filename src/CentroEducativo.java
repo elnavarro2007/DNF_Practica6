@@ -31,6 +31,11 @@ public class CentroEducativo {
     }
 
     public double salarioMedio() {
+
+        /**
+         * Devuelve el salario medio.
+         * @return salariomedio/trabajadorr
+         */
         double salarioMedio = 0;
         for (Trabajador t : trabajdorr) {
             salarioMedio = salarioMedio + t.getSalarioBase();
@@ -39,6 +44,12 @@ public class CentroEducativo {
     }
 
     public Trabajador trabajadorMasAntiguo() {
+
+        /**
+         * Devuelve el trabajador mas antiguo.
+         * @return mayor
+         */
+
         Trabajador mayor = trabajdorr.getFirst();
 
         for (Trabajador t : trabajdorr) {
