@@ -3,19 +3,17 @@ import java.time.LocalDate;
 public class PersonalAdministrativo extends Trabajador {
 
     private final String departamento;
-    private final int nivel;
 
 
-    public PersonalAdministrativo(String nombre, String apellidos, String DNI, LocalDate fechaIncorporacion, double salarioBase, String departamento, int nivel) {
+
+    public PersonalAdministrativo(String nombre, String apellidos, String DNI, LocalDate fechaIncorporacion, double salarioBase, String departamento) {
         super(nombre, apellidos, DNI, fechaIncorporacion, salarioBase);
         this.departamento = departamento;
-        this.nivel = nivel;
+
     }
 
-    @Override
-    public double calcularSalario() {
-        return super.getSalarioBase() + (nivel * 100);
-    }
+
+
 
     @Override
     public String trabajar() {
