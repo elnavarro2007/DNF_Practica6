@@ -1,6 +1,13 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+/**
+ * En esta parte probamos las funciones del programa que hemos
+ * programado
+ *  @author Diego Navarro Fernandez
+ *  @version 1.0
+ *
+ */
 public class Demo {
     public static void main(String[] args) {
         ArrayList<Trabajador> trabjadores = new ArrayList<>();

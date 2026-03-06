@@ -1,5 +1,16 @@
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+/**
+ * Clase abstracta que representa a un trabajador en un centro educativo.
+ * Define los atributos comunes a todos los trabajadores y proporciona métodos
+ * para calcular la antigüedad, una descripción genérica de trabajo y una representación en cadena.
+ * Las subclases pueden sobrescribir el método trabajar() para especificar tareas particulares.
+ *
+ * @author Diego Navarro Fernandez
+ * @version 1.0
+ */
+
+
 
 public abstract class Trabajador {
 
@@ -9,6 +20,8 @@ public abstract class Trabajador {
     private final LocalDate fechaIncorporacion;
     private final double salarioBase;
 
+
+    // getter y setter
     public String getNombre() {
         return nombre;
     }

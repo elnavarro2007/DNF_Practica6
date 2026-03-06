@@ -1,5 +1,14 @@
 import java.time.LocalDate;
 
+/**
+ * * Clase que representa al personal administrativo, que extiende de la clase Trabajador.
+ *  * Incluye un departamento específico y sobrescribe el método trabajar para describir
+ *  * sus tareas administrativas.
+ *
+ *  @author Diego Navarro Fernandez
+ *  @version 1.0
+ *
+ */
 public class PersonalAdministrativo extends Trabajador {
 
     private final String departamento;

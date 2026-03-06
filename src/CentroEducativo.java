@@ -1,6 +1,16 @@
 
 import java.util.ArrayList;
 
+/**
+Representa un centro educativo, gestionando una lista de trabajadores.
+ Esta clase permite realizar operaciones como mostrar los trabajadores, calcular
+ el salario medio y encontrar al trabajador con mayor antigüedad.
+
+ @author Diego Navarro Fernandez
+ @version 1.0
+ */
+
+
 public class CentroEducativo {
 
 
