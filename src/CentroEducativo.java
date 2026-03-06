@@ -1,26 +1,18 @@
-import java.time.LocalDate;
+
 import java.util.ArrayList;
 
 public class CentroEducativo {
 
 
-    private ArrayList<Trabajador> trabajdorr;
+    private final ArrayList<Trabajador> trabajdorr;
 
-    public CentroEducativo() {
-        trabajdorr = new ArrayList<>();
-    }
+
 
     public CentroEducativo(ArrayList<Trabajador> trabajdorr) {
         this.trabajdorr = trabajdorr;
     }
 
-    /*
-    public void mostrarNombre (){
-        for (Trabajador t : trabajdorr){
-            System.out.println(super.getNombre());
-        }
-    }
-    */
+
 
     public void mostrarTrabajadores() {
         for (Trabajador t : trabajdorr) {
