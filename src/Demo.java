@@ -17,7 +17,7 @@ public class Demo {
         System.out.println("MOSTRAR TRABAJADORES");
         centroEducativo.mostrarTrabajadores();
 
-
+        //hace la suma de los salarios y hace la media
         System.out.println();
         System.out.println("SALARIO MEDIO");
         System.out.println(centroEducativo.salarioMedio());
